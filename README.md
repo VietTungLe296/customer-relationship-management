@@ -2,12 +2,19 @@
  A project that I practice on my own during my learning about Spring MVC and Hibernate. Basic CRUD application for customer relationship management system
  
  Front-end: HTML, CSS, JS(a little)
+ 
  Back-end: Java
+ 
  Template engine: JSP
+ 
  Framework: Bootstrap 4, Spring MVC, Hibernate
+ 
  RDBMS: MySQL
+ 
  Software management tool: Maven, GitHub
+ 
  Utilities: Lombok
+
  
 LIST:
 ![image](https://user-images.githubusercontent.com/100455448/200175309-050f427c-7ef8-474d-995a-491bfd3e8b80.png)
