@@ -1,0 +1,27 @@
+html {
+    margin: auto;
+}
+
+#header-name {
+    margin-left: 5px;
+}
+
+table {
+    text-align: center;
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+}
+
+#update-btn {
+    width: 30px;
+    height: 30px;
+}
+
+#delete-btn {
+    width: 25px;
+    height: 25px;
+}
+
