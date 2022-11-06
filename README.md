@@ -21,5 +21,5 @@ UPDATE:
 DELETE:
 ![image](https://user-images.githubusercontent.com/100455448/200175425-b49fe759-e731-4765-9921-13c407fca7db.png)
 
-validation:
+Validation:
 ![image](https://user-images.githubusercontent.com/100455448/200175484-5bfb2bad-477d-4d26-b133-ef4add66f93c.png)
