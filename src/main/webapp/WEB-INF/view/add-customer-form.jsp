@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet"
-        href="<%=request.getContextPath()%>/resources/static/error/customer-input-error.css">
+        href="${pageContext.request.contextPath}/resources/error/customer-input-error.css">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark" style="background-color: green">
     <div>
-      <a href="<%=request.getContextPath()%>/customer/list" class="navbar-brand">
+      <a href="${pageContext.request.contextPath}/" class="navbar-brand">
         CRM - Customer Relationship Manager
       </a>
     </div>
@@ -66,13 +66,13 @@
           <button type="submit" class="btn btn-success">Add</button>
         </fieldset>
 
-        <a href="<%=request.getContextPath()%>/customer/list">Back to List</a>
+        <a href="${pageContext.request.contextPath}/">Back to List</a>
 
       </form:form>
     </div>
   </div>
 </div>
-<script src="<%=request.getContextPath()%>/resources/static/js/script.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/script.js"></script>
 </body>
 
 </html>

@@ -68,11 +68,6 @@ public class CustomerController {
         return "redirect:/customer/list";
     }
 
-    @GetMapping("/saveNewCustomer")
-    public String invalidAddRequest() {
-        return "redirect:/customer/showFormForAdd";
-    }
-
     @PostMapping("/saveUpdateCustomer")
     public String saveUpdateCustomer(@Valid @ModelAttribute("customer") Customer theCustomer, BindingResult result) {
         if (result.hasErrors()) {
@@ -80,11 +75,6 @@ public class CustomerController {
         }
 
         customerService.saveCustomer(theCustomer);
-        return "redirect:/customer/list";
-    }
-
-    @GetMapping("/saveUpdateCustomer")
-    public String invalidUpdateRequest() {
         return "redirect:/customer/list";
     }
 
