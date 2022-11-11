@@ -1,17 +1,21 @@
 # CRM - Customer Relationship Management
 A project that I practice on my own during my learning about Spring MVC and Hibernate. Basic CRUD application for customer relationship management system
+
 #UPDATE FOR 2nd version: Add Spring Security for authentication and authorization. Also slightly changed the UI
 
- 
+HOW THE APP WAS CREATED: 
+
 Front-end: HTML, CSS, JS(a little)
  
 Back-end: Java
  
 Template engine: JSP
  
-Technologies used: Bootstrap 4, Spring MVC, Spring Security, Hibernate
+Technologies used: Bootstrap 4, Spring MVC, Hibernate
+
+Authentication and Authorization: Spring Security
  
-RDBMS: MySQL
+Database: MySQL
  
 Software management tool: Maven, GitHub
  
@@ -24,6 +28,13 @@ ADD:
 Validation:
 ![image](https://user-images.githubusercontent.com/100455448/200175484-5bfb2bad-477d-4d26-b133-ef4add66f93c.png)
 
-Authentication and Authorization by Spring Security
+Authentication and Authorization by Spring Security:
 ![image](https://user-images.githubusercontent.com/100455448/201295668-2d94b5a7-52aa-4959-850a-31a411ab5742.png)
+
+!!!!!!!!!!!!!!!
+
+HOW TO USE: Clone to your GitHub, run the script in folder sql_scripts in MySQL
+
+Accounts:
+username:user & password:user | username:admin & password:admin
 
