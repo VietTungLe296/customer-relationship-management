@@ -80,26 +80,26 @@
 
                     <security:authorize access="hasRole('ADMIN')">
                         <td>
-                            <form class="form-center"
+                            <form:form class="form-center"
                                   action="${pageContext.request.contextPath}/customer/showFormForUpdate"
                                   method="post">
                                 <input type="hidden" name="customerID" value="${tempCustomer.id}">
                                 <input id="update-btn" type="image"
                                        src="${pageContext.request.contextPath}/resources/image/update-icon.jpg"
                                        alt="update">
-                            </form>
+                            </form:form>
                         </td>
                     </security:authorize>
 
                     <security:authorize access="hasRole('ADMIN')">
                         <td>
-                            <form onsubmit="return confirmDelete();" class="form-center"
+                            <form:form onsubmit="return confirmDelete();" class="form-center"
                                   action="${pageContext.request.contextPath}/customer/deleteCustomer" method="post">
                                 <input type="hidden" name="customerID" value="${tempCustomer.id}">
                                 <input id="delete-btn" type="image"
                                        src="${pageContext.request.contextPath}/resources/image/delete-icon.png"
                                        alt="delete">
-                            </form>
+                            </form:form>
                         </td>
                     </security:authorize>
 

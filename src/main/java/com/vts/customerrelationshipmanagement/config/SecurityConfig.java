@@ -32,7 +32,8 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http.authorizeRequests(configurer -> configurer
+        http
+                .authorizeRequests(configurer -> configurer
                         .antMatchers("/customer/showForm*").hasRole("ADMIN")
                         .antMatchers("/customer/save*").hasRole("ADMIN")
                         .antMatchers("/customer/delete*").hasRole("ADMIN")
